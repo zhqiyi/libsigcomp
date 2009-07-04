@@ -1,17 +1,16 @@
 #summary One-sentence summary of this page.
-#labels Featured
 
 *libSigComp* already implement:
 
-*RFC 3320: Signaling Compression (SigComp)
-*RFC 3485: The Session Initiation Protocol (SIP) and Session Description Protocol (SDP) *Static Dictionary for Signaling Compression (SigComp)
-*RFC 4464: Signaling Compression (SigComp) Users' Guide
-*RFC 4465: Signaling Compression (SigComp) Torture Tests _used for non-regression tests_
-*RFC 4077: A Negative Acknowledgement Mechanism for Signaling Compression
-*RFC 5049: Applying Signaling Compression (SigComp) to the Session Initiation Protocol (SIP)
-*RFC 5112: The Presence-Specific Static Dictionary for Signaling Compression (Sigcomp)
-*RFC 1951: DEFLATE Compressed Data Format Specification version _based on zlib_
-*3GPP TR23.979 Annex C: Required SigComp performance
-
-Will be implemented in the next releases:
-*RFC 3321: Signaling Compression (SigComp?) - Extended Operations
+RFC 3320: Signaling Compression (SigComp)<br>
+RFC 3485: The Session Initiation Protocol (SIP) and Session Description Protocol (SDP)  Static Dictionary for Signaling Compression (SigComp)<br>
+RFC 4464: Signaling Compression (SigComp) Users' Guide<br>
+RFC 4465: Signaling Compression (SigComp) Torture Tests -_used for non-regression tests_<br>
+RFC 4077: A Negative Acknowledgement Mechanism for Signaling Compression<br>
+RFC 5049: Applying Signaling Compression (SigComp) to the Session Initiation Protocol (SIP)<br>
+RFC 5112: The Presence-Specific Static Dictionary for Signaling Compression (Sigcomp)<br>
+RFC 1951: DEFLATE Compressed Data Format Specification version -_based on zlib_<br>
+3GPP TR23.979 Annex C: Required SigComp performance<br>
+<br>
+Will be implemented in the next releases:<br>
+RFC 3321: Signaling Compression (SigComp) - Extended Operations<br>
