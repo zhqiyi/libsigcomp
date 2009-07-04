@@ -1,6 +1,4 @@
-#summary One-sentence summary of this page.
 #labels Featured
-
 *libSigComp* already implement:
 
 RFC 3320: Signaling Compression (SigComp)<br>
