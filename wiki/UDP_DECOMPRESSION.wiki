@@ -28,6 +28,10 @@ result.setCompartmentId(COMPARTMENT_ID);
 // Set output buffer (buffer holding uncompressed message)
 result.setOutputBuffer(outputBuffer, MAX_BUFFER_SIZE, IS_STREAM, STREAM_ID);
 
+// Receive SigComp message from network
+int addressSize = sizeof(address);
+size_t inputLen = recvfrom(sock, inputBuffer, MAX_BUFFER_SIZE, 0, (SOCKADDR *)&address, &addressSize);
+
 // Decompress SigComp message
 size_t outLen = manager->decompress(inputBuffer, inputLen, &result);
 if(outLen)
