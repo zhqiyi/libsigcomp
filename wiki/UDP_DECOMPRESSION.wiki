@@ -54,3 +54,5 @@ manager->closeCompartment(COMPARTMENT_ID);
 // delete manager 
 delete manager;
 }}}
+
+et voilà
