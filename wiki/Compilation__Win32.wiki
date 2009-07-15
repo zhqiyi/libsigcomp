@@ -1,13 +1,5 @@
 #labels Win32,Compilation
-I suppose:
-C:\
- |  
- +--> libsigcomp
-          |
-          +----->demo
-          |
-          +----->libsigcomp 
-
+I suppose that libsigcomp is under *C:\*
 
 = Microsoft Visual Studio =
 Under _C:\libsigcomp_ directory you have *SigComp.sln* which contains both _demo.vcproj_ and _libsigcomp.vcproj_ projects.
