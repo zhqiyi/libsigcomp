@@ -2,7 +2,7 @@
 I suppose that libsigcomp is under *C:\*
 
 = Microsoft Visual Studio =
-Under _C:\libsigcomp_ directory you have *SigComp.sln* which contains both _demo.vcproj_ and _libsigcomp.vcproj_ projects.
+Under _C:\libsigcomp_ directory you have *SigComp.sln* which contains both _demo.vcproj_ and _libsigcomp.vcproj_ projects.<br>
 Using *Configuration Manager* (Visual Studio Toolbar) combobox choose Win32 as target platform.
 
 == Cygwin ==
