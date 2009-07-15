@@ -1,0 +1,28 @@
+#labels Win32,Compilation
+I suppose:
+C:\
+ |  
+ +--> libsigcomp
+          |
+          +----->demo
+          |
+          +----->libsigcomp 
+
+
+= Microsoft Visual Studio =
+Under _C:\libsigcomp_ directory you have *SigComp.sln* which contains both _demo.vcproj_ and _libsigcomp.vcproj_ projects.
+Using *Configuration Manager* (Visual Studio Toolbar) combobox choose Win32 as target platform.
+
+== Cygwin ==
+ * To compile libsigcomp project
+{{{
+export CXXFLAGS=-mno-cygwin
+cd /c/libsigcomp/libsigcomp
+./configure --enable-win32thread
+make clean && make && make install
+}}}
+ * To compile demo project (for quick test)
+{{{
+cd /c/libsigcomp/demo
+g++ demo.cpp -mno-cygwin -I../libsigcomp/include ../libsigcomp/libsigcomp.a
+}}}
