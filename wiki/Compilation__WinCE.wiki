@@ -1,0 +1,16 @@
+I suppose that libsigcomp is under *C:\*
+
+= Microsoft Visual Studio =
+Under _C:\libsigcomp_ directory you have *SigComp.sln* which contains both _demo.vcproj_ and _libsigcomp.vcproj_ projects.<br>
+Using *Configuration Manager* (Visual Studio Toolbar) combobox choose your target platform.
+
+== Cygwin and CeGCC==
+To compile *libSigComp* for WinCE/Windows Mobile you have to install a cross compiler for Windows CE. I highly recommend [http://cegcc.sourceforge.net/ CeGCC].
+ * To compile libsigcomp project
+{{{
+// TODO
+}}}
+ * To compile demo project (for quick test)
+{{{
+// TODO
+}}}
