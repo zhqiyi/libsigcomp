@@ -1,4 +1,5 @@
-#labels Win32,Compilation
+#summary Compiling on Windows for Windows XP/Vista
+#labels Phase-Implementation
 I suppose that libsigcomp is under *C:\*
 
 = Microsoft Visual Studio =
