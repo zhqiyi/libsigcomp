@@ -1,4 +1,4 @@
-#summary Compiling libSigComp for Microsoft Windows CE
+#summary Compiling libSigComp on Windows for Windows CE
 #labels Phase-Implementation
 I suppose that libsigcomp is under *C:\*
 
