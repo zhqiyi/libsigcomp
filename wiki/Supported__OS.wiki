@@ -1,4 +1,5 @@
-#labels Featured
+#summary All supported OS
+#labels Phase-Implementation
 == Supported OS ==
 
  * Windows Xp/Vista
