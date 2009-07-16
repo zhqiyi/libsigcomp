@@ -1,3 +1,5 @@
+#summary Compiling libSigComp for Microsoft Windows CE
+#labels Phase-Implementation
 I suppose that libsigcomp is under *C:\*
 
 = Microsoft Visual Studio =
