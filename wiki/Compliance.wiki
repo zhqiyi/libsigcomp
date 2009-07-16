@@ -1,4 +1,5 @@
-#labels Featured
+#summary Already implemented RFCs and in the way
+#labels Phase-Implementation
 *libSigComp* already implement:
 
 [http://www.ietf.org/rfc/rfc3320.txt RFC 3320]: Signaling Compression (SigComp)<br>
