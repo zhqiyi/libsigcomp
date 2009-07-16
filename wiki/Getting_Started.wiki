@@ -4,9 +4,11 @@
 = Getting Started =
 
 [Compliance * Implemented RFCs]<br>
+<br>
 [Supported__OS * Supported Operating Systems]<br>
 [Compilation__WinCE * Compilation under Window CE]<br>
-[UDP_Compression UDP compression]
-[UDP_DECOMPRESSION UDP decompression]
-[TCP_Compression TCP compression]
-[TCP_DeCompression TCP decompression]
+<br>
+[UDP_Compression * UDP compression]<br>
+[UDP_DECOMPRESSION * UDP decompression]<br>
+[TCP_Compression * TCP compression]<br>
+[TCP_DeCompression * TCP decompression]<br>
