@@ -1,5 +1,5 @@
 #labels Featured
-#All you need to start using libSigComp.
+# All you need to start using libSigComp.
 
 = Getting Started =
 
