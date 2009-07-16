@@ -1,5 +1,5 @@
 #summary SigComp decompression using UDP protocol
-#labels Featured,Phase-Implementation
+#labels Phase-Implementation
 Decompression is as easy as compression (thread-safe).
 
  * Include header file 
