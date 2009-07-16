@@ -1,4 +1,5 @@
-#labels Featured,Phase-Implementation
+#summary Sigcomp Compression using UDP protocol
+#labels Phase-Implementation
 It is easy to compress your SIP message and send it over UDP connection. Compression can be safely performed in multithreaded application because *libSigComp* is thread-safe.
 *libsigcomp* use _sigcomp_ as default namespace to avoid conflicts. You can change this namespace by redefining {{{MY_FAVORITE_NS}}} macro in _libsigcomp_config.h_ file.
 
