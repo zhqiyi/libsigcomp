@@ -6,3 +6,7 @@
 [Compliance * Implemented RFCs]<br>
 [Supported__OS * Supported Operating Systems]<br>
 [Compilation__WinCE * Compilation under Window CE]<br>
+[UDP_Compression UDP compression]
+[UDP_DECOMPRESSION UDP decompression]
+[TCP_Compression TCP compression]
+[TCP_DeCompression TCP decompression]
