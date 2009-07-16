@@ -1,2 +1,3 @@
-#labels Featured
+#summary SigComp compression using TCP transport
+#labels Phase-Implementation
 Coming soon ...
