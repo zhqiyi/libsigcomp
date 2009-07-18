@@ -9,6 +9,7 @@
 [Compilation__WinCE * Compilation for Window CE]<br>
 [Compilation__Win32 * Compilation for Window XP/Vista]<br>
 [Compilation_Linux * Compilation for Linux]<br>
+[Compilation_Symbian * Compilation for Symbian S60]<br>
 <br>
 [UDP_Compression * UDP compression]<br>
 [UDP_DECOMPRESSION * UDP decompression]<br>
