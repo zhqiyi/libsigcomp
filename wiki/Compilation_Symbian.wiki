@@ -1,7 +1,7 @@
-#summary Compiling libSigComp for Symbian
+#summary Compiling libSigComp for Symbian S60
 #labels Phase-Implementation
 
-suppose that libsigcomp is under C:\ 
+I suppose that libsigcomp is under *C:\* and you have *S60_3rd_FP2_SDK_v1.1* or later.
 
 = Carbide.c++ v2.0 =
 
