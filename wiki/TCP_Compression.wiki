@@ -1,3 +1,15 @@
 #summary SigComp compression using TCP transport
 #labels Phase-Implementation
-Coming soon ...
+
+Only change from
+{{{
+#define IS_STREAM       false
+}}}
+to
+{{{
+#define IS_STREAM       true
+}}}
+or call compression like this:
+{{{
+manager->compress(COMPARTMENT_ID, "REGISTER ...", strlen("REGISTER ..."), outputBuffer, MAX_BUFFER_SIZE, true/*tcp*/);
+}}}
