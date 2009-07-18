@@ -18,7 +18,7 @@
  }}}
  * Configure your source code (change __/usr__ with the directory containing libsigcomp header and library)
  {{{
- ./configure --with-pthread=/usr --program-prefix=/usr/local/libsigcomp
+ ./configure --with-pthread=/usr --prefix=/usr/local/libsigcomp
  }}}
  * Compile and install
  {{{
