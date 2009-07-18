@@ -9,7 +9,7 @@ to
 {{{
 #define IS_STREAM       true
 }}}
-or call compression like this:
+or call compression function like this:
 {{{
 manager->compress(COMPARTMENT_ID, "REGISTER ...", strlen("REGISTER ..."), outputBuffer, MAX_BUFFER_SIZE, true/*tcp*/);
 }}}
