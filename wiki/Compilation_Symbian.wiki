@@ -1,0 +1,14 @@
+#summary Compiling libSigComp for Symbian
+#labels Phase-Implementation
+
+suppose that libsigcomp is under C:\ 
+
+= Carbide.c++ v2.0 =
+
+ * Go to *File* -> *Import* --> *Existing Projects into Workspace*
+ * Select *C:\libsigcomp* as root directory
+ 
+et voilà
+
+= ARM toolchain=
+coming soon ...
