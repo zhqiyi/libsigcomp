@@ -7,15 +7,28 @@ Under _C:\libsigcomp_ directory you have *SigComp.sln* which contains both _demo
 Using *Configuration Manager* (Visual Studio Toolbar) combobox choose Win32 as target platform.
 
 == Cygwin ==
- * To compile libsigcomp project
-{{{
-export CXXFLAGS=-mno-cygwin
-cd /c/libsigcomp/libsigcomp
-./configure --enable-win32thread
-make clean && make && make install
-}}}
- * To compile demo project (for quick test)
-{{{
-cd /c/libsigcomp/demo
-g++ demo.cpp -mno-cygwin -I../libsigcomp/include ../libsigcomp/libsigcomp.a
-}}}
+ Go to directory where you would like to checkout source code
+ * Checkout from svn
+ {{{
+ svn checkout http://libsigcomp.googlecode.com/svn/trunk/ libsigcomp-read-only
+ }}}
+ * Go into __libsigcomp__ directory
+ {{{
+ cd libsigcomp-read-only/libsigcomp
+ }}}
+ * Disable cygwin dependencies
+ {{{
+ export CXXFLAGS=-mno-cygwin
+ }}}
+ * Generate *configure* file
+ {{{
+ ./autogen.sh
+ }}}
+ * Configure your source code
+ {{{
+ ./configure --enable-win32thread --prefix=/usr/local/libsigcomp
+ }}}
+ * Compile and install
+ {{{
+ make && make install
+ }}}
