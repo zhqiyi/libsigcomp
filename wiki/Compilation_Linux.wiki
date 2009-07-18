@@ -1,0 +1,40 @@
+#summary Compiling libSigComp on Ubuntu for Linux OS
+#labels Phase-Implementation
+
+= libSigComp with GCC =
+
+ * Go to directory where you would like to checkout source code
+ * Checkout from svn
+ {{{
+ svn checkout http://libsigcomp.googlecode.com/svn/trunk/ libsigcomp-read-only
+ }}}
+ * Go into __libsigcomp__ directory
+ {{{
+ cd libsigcomp-read-only/libsigcomp
+ }}}
+ * Generate *configure* file
+ {{{
+ ./autogen.sh
+ }}}
+ * Configure your source code (change __/usr__ with the directory containing libsigcomp header and library)
+ {{{
+ ./configure --with-pthread=/usr --program-prefix=/usr/local/libsigcomp
+ }}}
+ * Compile and install
+ {{{
+ make && make install
+ }}}
+
+= Demo program with GCC =
+ * Go into __demo__ directory
+ {{{
+ cd ../demo
+ }}}
+ * Compile source code
+ {{{
+ g++ *.cpp /usr/local/libsigcomp/lib/libsigcomp.a -I/usr/local/libsigcomp/include
+ }}}
+ * Run demo
+ {{{
+ ./a.out
+ }}}
