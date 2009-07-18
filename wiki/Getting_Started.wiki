@@ -8,6 +8,7 @@
 [Supported__OS * Supported Operating Systems]<br>
 [Compilation__WinCE * Compilation for Window CE]<br>
 [Compilation__Win32 * Compilation for Window XP/Vista]<br>
+[Compilation_Linux * Compilation for Linux]<br>
 <br>
 [UDP_Compression * UDP compression]<br>
 [UDP_DECOMPRESSION * UDP decompression]<br>
