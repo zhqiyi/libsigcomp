@@ -16,7 +16,7 @@
  {{{
  ./autogen.sh
  }}}
- * Configure your source code (change __/usr__ with the directory containing libsigcomp header and library)
+ * Configure your source code (change __/usr__ with the directory containing __pthread__ header and library)
  {{{
  ./configure --with-pthread=/usr --prefix=/usr/local/libsigcomp
  }}}
